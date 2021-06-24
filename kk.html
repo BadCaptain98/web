@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="spoiler">
+        <div>
+        <input name="button" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')['show'].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')['show'].style.display = ''; this.parentNode.parentNode.getElementsByTagName('div')['hide'].style.display = 'none'; this.innerText = ''; this.value = 'Sembunyikan'; } else { this.parentNode.parentNode.getElementsByTagName('div')['show'].style.display = 'none'; this.parentNode.parentNode.getElementsByTagName('div')['hide'].style.display = ''; this.innerText = ''; this.value = 'Selanjutnya'; }" style="font-size: 11px; font-weight: bold; margin: 5px; padding: 0px;" type="button" value="Selanjutnya" /></div>
+        <div id="show" style="border: 1px solid white; display: none; margin: 5px; padding: 2px; width: 98%;">
+        <div style="background: none repeat scroll 0% 0% #ebf3fb; border: 1px solid #aaccee; color: black; margin: 0px; padding: 7px;">
+        <div style="text-align: justify;">
+        CONTOH KALIMAT TEKS YANG INGIN DISEMBUNYIKAN</div>
+        </div>
+        <div id="hide">
+        </div>
+        </div>
+
+      
+        <marquee loop="5" width="450"> Tulisan berjalan dengan loop </marquee> <br /> <marquee behavior ="slide" loop="5" width="450"> Tulisan berjalan dengan loop </marquee>
+</body>
+
+</html>

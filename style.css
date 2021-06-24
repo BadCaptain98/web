@@ -1,0 +1,94 @@
+h1.oi{
+   color:rgb(155, 124, 1);
+   font-family:'Times New Roman', Times, serif ;
+   text-align: center;
+   
+}
+body.lo{
+    animation:pulse 5s infinite; 
+    cursor: url('gambar/smi93\ \(1\).ani'), auto;
+}
+@keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136; 
+    }
+    40%{
+        background-color: cornsilk;
+    }
+    90%{
+        background-color: darkgrey;
+    }
+  }
+  p{
+    cursor: url('gambar/smi93\ \(1\).ani'), auto;
+  }
+i.oi{
+    color: blue;
+    font-size: 15px;
+}
+
+.mage{
+    float: right;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.age{
+    float: right;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.agem{
+    float: left;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.kl{
+    text-align: left;
+   
+   margin-bottom: 5px;
+   margin-right: 20px;
+margin-left: 20px;
+}
+p.yui{
+    cursor: url('gambar/smi93\ \(1\).ani'), auto;
+    text-align: justify;
+    text-indent: 50px;
+   margin-bottom: 5px;
+   margin-right: 20px;
+margin-left: 20px;
+}
+.meg{
+    text-align: left ;
+}
+img.mui{
+    float: left;
+}
+summary{
+    font-weight: bold;
+}
+form{
+    text-align: right;
+}
+.lol{
+    color: white;
+    padding: 40px;
+    
+}
+.gg{
+    animation: ease;
+}
+.mn{
+    margin-bottom: 1000px;
+}
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+  .er{
+    color: white;
+  }

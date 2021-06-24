@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Input data Mahasiswa</title>
+	<script src="java.js"></script>
+
+</head>
+
+<body background="gambar/qe.jpg">
+	<form name="form1" action="#"><center>
+		<style type="text/css">
+			td,u{
+				color: cornsilk;
+			}
+			
+			</style>
+		<h1><i><u>Input Data Mahasiswa </u></i></h1>
+		<table border="0" >
+		<tr><td>NIM </td><td><input type="text" name="nim" size="10"/></td></tr>
+		<tr><td>Nama</td> <td><input type="text" name="nama" size="30" /></td></tr>
+		<tr><td>Jeni Kelamin</td> <td><input type="radio" name="jenis_kelamin" value="laki-laki" />
+		Laki-laki<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</td></tr>
+		<tr><td>TTL </td> <td><input type="text" name="tempat" size="10"><input type="date" size="30" name="ttl" /></td></tr>
+		<tr><td>Agama </td> <td><select name="agama">
+		   <option value="Kristen"> Kristen</option>
+					<option value="Hindu"> Hindu</option>
+					<option value="Budha"> Budha</option>
+					<option value="Islam" selected> Islam</option>
+					</select></td></tr>
+		<tr><td>Hobby </td> <td><input type="text" size="30" name="hobby" /></td></tr>		
+			
+		<tr><td>Jurusan </td> <td><select name="jurusan">
+			<option value="Sistem Informasi"> Sistem Informasi</option>
+					 <option value="Sistem Komputer">Sistem Komputer</option>
+					 <option value="Manajemen Informatika">Manajemen Informatika</option>
+					 </select></td></tr>
+
+		<tr><td> Nilai Tugas </td><td><input type="text" name="ntugas" /></td></tr>
+		<tr><td> Nilai MID </td><td><input type="text" name="nmid" /></td></tr>
+		<tr><td> Nilai UAS </td><td><input type="text" name="nuas" oninput="hitung()"/></td></tr>
+		<tr><td> Total Nilai </td><td> <input type="text" name="ntotal" disabled="true"/></td></tr>
+		<tr><td> Keterangan </td><td> <input type="text" name="ket" disabled="true"/></td></tr>
+		<tr><td>Alamat </td> <td><textarea name="alamat" row="5" cols="31"></textarea></td></tr>
+		
+		
+		
+
+		<tr><td></td><td><input type="submit" Value="Submit" align="right"><input type="reset" Value="Clear" ></td></tr>
+
+		</table>
+		</center>
+		</form>
+
+
+</body>
+</html>
